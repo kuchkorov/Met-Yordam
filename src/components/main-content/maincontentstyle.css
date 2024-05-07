@@ -1,0 +1,18 @@
+.main-content {
+    display: flex;
+    width: 1400px;
+    margin: 50px auto;
+}
+.main-content .left-content {
+    width: 335px;
+    height: 857px;
+    padding: 30px 20px;
+    border-radius: 18px;
+    background-color: #fff;
+}
+.main-content .right-content {
+    width: 1045px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background-color: #fff;
+}

@@ -1,0 +1,29 @@
+.blog-post {
+    background-color: rgb(225, 231, 243);
+}
+
+.last_posts_div {
+    margin-bottom: 20px;
+}
+.list-group {
+    border-radius: 0;
+}
+.list-group-item {
+    background-color: rgb(61, 187, 241);
+    font-weight: bold;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.list-group-item:hover {
+    background-color: rgb(195, 219, 230);
+}
+/* .fst-italic {
+    background-color: yellowgreen;
+} */
+.fst-italic img {
+    width: 50%;
+    cursor: pointer;
+}
+.last_posts__img img {
+    width: 200px;
+}
