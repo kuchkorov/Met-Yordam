@@ -19,7 +19,7 @@ function Topnavbar() {
 
         <div className='language'>
             <div className="language-flag">
-                <img src="/img/russia.png" alt="rus" srcset="" />
+                <img src="/img/russia.png" alt="rus" />
             </div>
             <div className="location-info">
                 <span>Язык: </span>

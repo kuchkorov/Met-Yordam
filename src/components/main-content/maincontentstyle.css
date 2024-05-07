@@ -16,3 +16,26 @@
     border-radius: 18px;
     background-color: #fff;
 }
+/****** Left content component ********/
+.left-content-title {
+    display: flex;
+}
+.left-content-info {
+    width: 205px;
+    height: 44px;
+    /* background-color: aquamarine; */
+}
+.left-content-info p {
+    color: #050B2B;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+}
+.filter-delete {
+    width: 90px;
+    font-size: 14px;
+    color: #DE303A;
+    line-height: 14px;
+    font-weight: 600;
+    margin-top: 28px;
+}

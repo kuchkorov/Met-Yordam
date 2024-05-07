@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import {footerdata} from '../../db'
 
 function Footer() {
 
@@ -53,15 +54,14 @@ function Footer() {
             </div>
         </div>
         <div className="footer-bottom">
-            <div className="footer-bottom-info">
-                <span>MedYordam 2024 - Все права защищены</span>
-            </div>
-            <div className="footer-bottom-info">
-                <span>Обработка данных</span>
-            </div>
-            <div className="footer-bottom-info">
-                <span>Условия использования</span>
-            </div>
+            { footerdata.map((value)=>{
+                    return(
+                        <div key={value.id} className="footer-bottom-info">
+                            <span>{value.title}</span>
+                        </div>
+                    )
+                })
+            }
         </div>
     </div>
   )
